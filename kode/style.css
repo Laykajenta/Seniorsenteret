@@ -1,0 +1,94 @@
+body{
+    margin-left: 160px;
+    padding: 0;
+    margin-top: 0%;
+    background-color:hsl(85, 58%, 93%);
+    color:hsl(244, 71%, 14%) ;
+}
+/* --text: hsl(244, 71%, 14%);
+--background: hsl(85, 58%, 93%);
+--primary: hsl(235, 62%, 55%);
+--border: hsl(31, 50%, 79%);
+--accent: hsl(61, 70%, 60%); */
+.blikk{
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.blikk img{
+    height: 40vh;
+    width: auto;
+    border-radius: 10px 20px 10px 20px;
+  
+}
+
+h1,h2{
+    font-family: "Source Serif 4", serif;
+    font-weight: 800;
+    animation: focus-in-contract 1s linear;
+
+}
+h1{
+    font-size: 3.5em;
+}
+h2{
+    font-size: 2em;
+}
+h3, h4{
+    text-align: center;
+    font-size: 2em;
+    color: hsl(235, 62%, 55%);
+}
+
+h4{
+    font-size: 1em;
+}
+.container{
+    padding: 20px;
+}
+
+.tekst{
+    font-size: 1.5em;
+   /* font-weight: 400; */
+   border-radius: 10px;
+   border: 2px solid hsl(31, 50%, 79%);
+   padding: 15px;
+   box-shadow: 4px 5px 5px  hsl(31, 50%, 79%);
+}
+#bildeholder{
+    box-shadow: 4px 5px 5px  hsl(31, 50%, 79%);
+    border: 2px solid hsl(31, 50%, 79%);
+   
+}
+.galleribilder{
+    box-shadow: 4px 5px 5px  hsl(32, 54%, 55%);
+    border: 2px solid hsl(31, 50%, 79%);
+    height: 300px;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+@keyframes focus-in-contract{
+    0%{
+        letter-spacing: 0.5em;
+        filter: blur(10px);
+        opacity: 0;
+    }
+    100%{
+        letter-spacing: 0;
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+#open{
+    text-align: center;
+}
+
+.laykajenta{
+    margin-right: 0;
+
+    
+}
